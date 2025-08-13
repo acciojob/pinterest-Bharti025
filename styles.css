@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+.hero{
+	display:flex;
+justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #f8f8f8;
+  gap: 30px;
+	
+}
+
+.hero img{
+height:35vh;
+width:70vw;
+object-fit:cover;
+}
+
+.hero-content{
+align-text:center;
+	alifn-content:center;
+	
+}
+
+
+.hero-content a{
+	border-radius:10%;
+	background-color:red;
+	color:white;
+	padding:0.5em;
+	text-decoration:none;
+}
